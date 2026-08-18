@@ -3,7 +3,7 @@
 A data-driven web app that analyzes your academic and technical profile and gives you a personalized placement readiness score — based on real student placement data.
 
 ## 🚀 Live Demo
-[View Live App](https://placement-readiness-analyzer.streamlit.app/)
+[View Live App](https://placement-readiness-analysis.streamlit.app/)
 
 ## 📊 Key Findings from the Data
 - Students WITH projects get placed **66.4%** of the time vs only **1.9%** without
