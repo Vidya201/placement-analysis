@@ -8,7 +8,7 @@ st.set_page_config(page_title="Student Placement Readiness Analyzer", page_icon=
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"C:\Users\vidya\OneDrive\Desktop\Sample.csv")
+    df = pd.read_csv("Sample.csv")
     df['Internship'] = df['Internships(Y/N)'].map({'Yes': 1, 'No': 0})
     df['Placed'] = df['Placement(Y/N)?'].map({'Placed': 1, 'Not Placed': 0})
     df['Backlog'] = df['Backlog in 5th sem'].map({'Yes': 1, 'No': 0})
